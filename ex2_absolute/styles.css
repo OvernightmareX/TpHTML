@@ -1,0 +1,59 @@
+.dice{
+    position: relative;
+    display: inline-block;
+    width: 160px;
+    height: 160px;
+    background-color: beige;
+    border-radius: 10%;
+    margin: 10px;
+}
+
+.point{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+#point_tl{
+    position: absolute;
+    top: 10px;
+    left: 10px; 
+}
+
+#point_tr{
+    position: absolute;
+    top: 10px;
+    right: 10px; 
+}
+
+#point_mid{
+    position: absolute;
+    top: 60px;
+    left: 60px; 
+}
+
+#point_br{
+    position: absolute;
+    bottom: 10px;
+    right: 10px; 
+}
+
+#point_bl{
+    position: absolute;
+    bottom: 10px;
+    left: 10px; 
+}
+
+#point_l{
+    position: absolute;
+    bottom: 60px;
+    left: 10px; 
+}
+
+#point_r{
+    position: absolute;
+    bottom: 60px;
+    right: 10px; 
+}
+
