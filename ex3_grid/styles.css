@@ -1,0 +1,51 @@
+.container {
+    background-color: rgba(255, 255, 255, .5);
+    margin : 20px auto;
+    display: grid;
+    grid-template-areas: 
+    "H H H H"
+    "M1 M M M2"
+    "F F F F";
+}
+
+.container div {
+    margin : 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div span {
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 50%;
+    font-size: 48px;
+    height: auto;
+    line-height: 3em;
+    text-align: center;
+    width: 3em;
+}
+
+.container .main{
+    grid-area: M;
+    background-color: brown;
+}
+
+.container .footer{
+    grid-area: F;
+    background-color: cornflowerblue;
+}
+
+.container .header{
+    grid-area: H;
+    background-color: darkolivegreen;
+}
+
+.container .menu1{
+    grid-area: M1;
+    background-color: mediumslateblue;
+}
+
+.container .menu2{
+    grid-area: M2;
+    background-color: darkorange;
+}
