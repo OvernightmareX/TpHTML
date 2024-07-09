@@ -2,14 +2,14 @@
     background-color: rgba(255, 255, 255, .5);
     margin : 20px auto;
     display: grid;
+    gap: 10px;
     grid-template-areas: 
     "H H H H"
     "M1 M M M2"
     "F F F F";
 }
 
-.container div {
-    margin : 5px;
+.container *{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,17 +25,17 @@ div span {
     width: 3em;
 }
 
-.container .main{
+.container main{
     grid-area: M;
     background-color: brown;
 }
 
-.container .footer{
+.container footer{
     grid-area: F;
     background-color: cornflowerblue;
 }
 
-.container .header{
+.container header{
     grid-area: H;
     background-color: darkolivegreen;
 }
